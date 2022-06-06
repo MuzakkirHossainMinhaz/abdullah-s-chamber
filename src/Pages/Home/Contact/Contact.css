@@ -1,0 +1,25 @@
+.contact-parent{
+    margin-top: 100px;
+}
+.contact-parent h1{
+    color: #0a6464;
+}
+.contact-img{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.field{
+    font-size: 18px;
+    padding: 12px;
+}
+
+@media only screen and (max-width: 576px) {
+    .contact{
+        grid-template-columns: 2fr 1.5fr;
+    }
+}
